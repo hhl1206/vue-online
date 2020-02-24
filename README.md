@@ -27,3 +27,6 @@ gh-pages分支上把dist目录下的代码搞过去
 
 把dist代码留下 其他的删除
 open in folder
+
+git status查看最近做了什么，删了什么
+再做一次提交
