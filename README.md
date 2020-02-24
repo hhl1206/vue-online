@@ -27,13 +27,15 @@ gh-pages分支上把dist目录下的代码搞过去
 
 4. 把dist代码留下 其他的删除
 open in folder
-5. 把dist里面的都复制到上一层vue-online
+5. 把dist里面的都复制到上一层vue-online 
+上线的代码在dist目录下
 6. 把dist删掉 
 
-git status查看最近做了什么，删了什么
-再做一次提交
+7. git status查看最近做了什么，删了什么
+8. 再做一次提交
 git add .
 git commit -m 'gh-pages'
 git status看一下状态
 git push origin gh-pages
-然后我的github里面就会有gh-pages分支了
+9. 然后我的github里面就会有gh-pages分支了
+10. 来到settings(github的) 配置git pages
