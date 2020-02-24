@@ -7,7 +7,7 @@ Clone or Download复制链接
 
 1. npm run serve 开发
 2. npm run build 打包到dist
-将dist/index.html中有关路径的都改成相对路径（./)
+3. 将dist/index.html中有关路径的都改成相对路径（./)
 
 新建分支并且换到分支中
 git checkout -b 新分支名
@@ -25,8 +25,15 @@ gh-pages
 MIT github master 最稳定版本
 gh-pages分支上把dist目录下的代码搞过去
 
-把dist代码留下 其他的删除
+4. 把dist代码留下 其他的删除
 open in folder
+5. 把dist里面的都复制到上一层vue-online
+6. 把dist删掉 
 
 git status查看最近做了什么，删了什么
 再做一次提交
+git add .
+git commit -m 'gh-pages'
+git status看一下状态
+git push origin gh-pages
+然后我的github里面就会有gh-pages分支了
